@@ -1,0 +1,17 @@
+meta {
+  name: identificacion
+  type: http
+  seq: 4
+}
+
+get {
+  url: http://localhost:3000/identificacion/45789885?nombre=Laura&edad=18&ciudad=Pereira
+  body: none
+  auth: none
+}
+
+params:query {
+  nombre: Laura
+  edad: 18
+  ciudad: Pereira
+}
